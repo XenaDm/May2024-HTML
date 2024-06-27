@@ -86,7 +86,7 @@ main {
 align-items: center;
 }
 .info{
-border-color: black;
+border-color: #9c9c9c;
     border-style: solid;
     border-radius: 10px;
     width: 500px;
@@ -102,9 +102,10 @@ h3{
 }
 main p{
     transition: 1s;
+    color: rgba(106, 106, 106, 0.71);
 }
 main p:hover{
-    color: #b4a7a7;
+    color: #135a3b;
     transition: 1s;
 }
 address{
@@ -121,14 +122,24 @@ address p{
     height: 150px;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    justify-content: space-around;
 }
 #phone{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 10px;
 }
+#phone p {
+    padding: 10px;
+}
+#mail{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+#mail p {
+    padding: 10px;
+}
+
 
 
 
