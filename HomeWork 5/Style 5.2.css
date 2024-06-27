@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+MX:wght@100..400&display=swap');
+section {
+    height: 50vh;
+    padding: 20px 70px;
+}
+section h1{
+    font-family: "Playwrite MX", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    font-size: xx-large;
+}
+section p{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: large;
+}
+.header{
+    background-color: #f6e217;
+    color: black;
+}
+.footer{
+    background-color: black;
+    color: #f6e217;
+}
+
