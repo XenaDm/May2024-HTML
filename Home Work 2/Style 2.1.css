@@ -1,0 +1,22 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+.menu div{
+    display: flex;
+    gap: 15px;
+}
+.start {
+    padding-left: 30px;
+}
+a {
+    text-decoration: none
+}
+details a{
+    display: block;
+    padding: 5px 5px 5px 20px;
+}
+.origin{
+    display: flex;
+    gap: 5px;
+}
