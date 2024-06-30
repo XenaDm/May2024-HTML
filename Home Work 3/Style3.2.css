@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: brown;
+}
+.calendar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap: 10px
+}
+.month {
+    height: 220px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: rgba(0, 0, 0, 0.49);
+    padding: 20px;
+    transition: 0.5s;
+    box-shadow: -18px 17px 43px -3px rgba(0,0,0,0.83);
+    -webkit-box-shadow: -18px 17px 43px -3px rgba(0,0,0,0.83);
+    -moz-box-shadow: -18px 17px 43px -3px rgba(0,0,0,0.83);
+}
+.month:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+p{
+color: white;
+    text-shadow: -6px 3px 4px rgba(0,0,0,0.68);
+}
+h3{
+    color: white;
+    text-shadow: -6px 3px 4px rgba(0,0,0,0.68);
+    transition: 1s;
+}
+h3:hover {
+    color: red;
+    transition: 1s;
+}

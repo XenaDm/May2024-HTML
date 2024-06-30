@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outside{
+    background: #f0d6fd;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.inside{
+    background: #500050;
+    height: 100px;
+    width: 100px;
+    margin: 60px;
+    transition: 1s;
+}
+.inside:hover{
+    background: #ff00ff;
+    border-radius: 100px;
+    transition: 1s;
+}
