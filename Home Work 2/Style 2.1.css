@@ -2,19 +2,21 @@
     display: flex;
     justify-content: space-between;
 }
-.menu-left .menu-right{
-    justify-content: space-around;
+.menu div{
     display: flex;
+    gap: 15px;
 }
 .start {
     padding-left: 30px;
 }
-body {
-    /*margin: 0 200px;*/
-    /*padding: 0 200px;*/
-    justify-content: center;
-
-}
 a {
     text-decoration: none
+}
+details a{
+    display: block;
+    padding: 5px 5px 5px 20px;
+}
+.origin{
+    display: flex;
+    gap: 5px;
 }
