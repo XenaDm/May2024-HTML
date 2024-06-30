@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 22vh;
+    background: #D9D9D9;
+}
+main {
+    height: 56vh;
+    background: #A4A4A4;
+    display: flex;
+    /*justify-content: space-between;*/
+}
+footer {
+    height: 22vh;
+    background: #D9D9D9;
+}
+aside {
+    width: 27vw;
+    background: #C0BDBD;
+
+}
+section {
+    height: 50%;
+    background: #827878;
+}
+article {
+    height: 50%;
+    background: #B7ADAD;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    width: 46vw;
+}
