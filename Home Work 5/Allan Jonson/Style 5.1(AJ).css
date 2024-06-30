@@ -83,28 +83,30 @@ main {
     text-align: left;
     justify-content: space-evenly;
     padding: 70px;
-align-items: center;
+    align-items: center;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(19, 90, 59, 0.5887605042016807) 36%, rgba(255, 255, 255, 1) 100%);
 }
-.info{
-border-color: black;
+.info {
+    border-color: #9c9c9c;
     border-style: solid;
     border-radius: 10px;
+    background-color: rgba(156, 156, 156, 0.2);
     width: 500px;
     height: 80px;
     font-family: "Orbitron", sans-serif;
     text-align: center;
     align-content: center;
-    /*margin: 20px 20px;*/
-
 }
 h3{
     padding: 20px;
 }
 main p{
     transition: 1s;
+    color: white;
 }
 main p:hover{
-    color: #b4a7a7;
+    color: #135a3b;
     transition: 1s;
 }
 address{
@@ -121,14 +123,24 @@ address p{
     height: 150px;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    justify-content: space-around;
 }
 #phone{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 10px;
 }
+#phone p {
+    padding: 10px;
+}
+#mail{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+#mail p {
+    padding: 10px;
+}
+
 
 
 
