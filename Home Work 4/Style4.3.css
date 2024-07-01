@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Indie Flower", cursive;
+    text-align: center;
+    font-size: xx-large;
+    text-shadow: 6px 3px 7px rgba(0,0,0,0.81);
+}
+#head{
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+#middle{
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+#foot{
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    width: 80vw;
+
+}

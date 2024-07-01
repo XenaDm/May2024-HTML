@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-size: xx-large;
+}
+.header {
+    background: #0080ff;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin: 0 10px;
+}
+.main {
+
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+}
+.main div {
+    background: #003871;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32vw;
+    margin: 10px 0;
+}
+.contact {
+    background: #0080ff;
+    height: 50vh;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
