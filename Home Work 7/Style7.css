@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-section{
+    height: 100vh;
+    background-image: url(img/bg-top-section.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lorem-ipsum{
+    width: 1058px;
+    height: 393px;
+    background: #FAF9F7;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+.lorem-ipsum div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    font-family: "KoHo", sans-serif;
+}
+.lorem-ipsum div h2{
+    color: #000;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 45px;
+    font-weight: 400;
+}
+.lorem-ipsum div p{
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.lorem-ipsum button{
+    width: 409px;
+    height: 76px;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-family: "KoHo", sans-serif;
+    font-size: 30px;
+}
+/*============Middle===================================================*/
+.mid-section{
+    min-height: 100vh;
+    background-image: url(img/bg-mid-section.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 105px 0 87px 0;
+}
+.mid-section iframe{
+    margin-bottom: 110px;
+    width: 949px;
+    height: 533px;
+}
+.mid-section h2,
+.mid-section p {
+    color: #000;
+    font-family: 'KoHo', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    width: 949px;
+}
+/*============Footer===================================================*/
+.foot-section{
+    height: 100vh;
+    background-image: url(img/bg-mid-section.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.foot-section div{
+    min-width: 453.6px;
+    height: 700px;
+    background: rgba(83, 83, 83, 0.40);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 22px 104px 22px;
+    text-align: center;
+}
+.foot-section button{
+    color: #6B6666;
+    font-size: 35px;
+    width: 409px;
+    height: 76px;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-family: "KoHo", sans-serif;
+}
+.foot-section p {
+    color: #000;
+    font-size: 35px;
+    font-family: 'KoHo', sans-serif;
+}
+.foot-section h3{
+    color: #000;
+    font-size: 35px;
+    font-family: 'KoHo', sans-serif;
+}
+.foot-section img{
+    width: 408.6px;
+    height: 214px;
+}
+.price{
+    margin-top: 62px;
+}
+
