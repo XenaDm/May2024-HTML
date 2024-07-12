@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    font-size: 18px;
+    font-weight: 400;
+}
+header ul a{
+    color: black;
+    text-decoration: none;
+}
+main{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FBF6F3;
+}
+#section-left{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#section-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+main h2{
+    font-size: 48px;
+    padding: 0 325px 0 43px;
+    /*width: 80%;*/
+}
+#price{
+    color: #AD0306;
+    font-size: 36px;
+    padding: 37px 519px 0 43px;
+}
+.size{
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 319px 48px 43px;
+}
+.size p{
+    padding-right: 27px;
+}
+#free-shipping {
+    font-size: 18px;
+    padding: 0 326px 0 43px;
+
+}
+
