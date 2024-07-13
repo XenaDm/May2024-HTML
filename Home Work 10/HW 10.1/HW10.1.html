@@ -1,0 +1,118 @@
+<!--TASK 1-->
+
+<!--Під час стилізації використовуй ">" (дочірній селектор)-->
+
+<!--Завдання 1. Для першого блоку: задай кожному парному елементу списку рожевий колір-->
+<!--Завдання 2. Для другого блоку: задай кожному не парному елементу списку розмір 22px-->
+<!--Завдання 3. Для третього блоку: задай кожному 2-му елементу, починаючи з 4-го елемента -  псевдоелемент :after та додай "!" до кожного з зазначених пунктів-->
+<!--Завдання 4. Для четвертого блоку: Задай фіолетовий колір для останнього елемента списку-->
+<!--Завдання 5.Для п'ятого блоку: Задай розмір 30px для перших літер списка, а також зміни колір на червоний-->
+<!--Завдання 6. Додай довільний фавікон-->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Work 10.1</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <style>
+        #flex {
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 20px;
+            margin-top: 50px;
+        }
+        div#flex>ul>li {
+            margin-top: 20px;
+        }
+        /*div>ul>li {*/
+        /*    list-style-type: none;*/
+        /*}*/
+        div>ul>li:first-child {
+            font-weight: bold;
+        }
+        /*div>ul>li::before {*/
+        /*    content: " ";*/
+        /*!*    display: inline-block;*!*/
+        /*    width: 30px;*/
+        /*    height: 30px;*/
+        /*    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACW0lEQVR4nO2Yy2oUQRSGS1woCHFmzhndGRDBpW58BDeuAkGDujCXETH0OS0EFy58AS9IfAEvcRFcRRIENdqnMsGVixiDWagLDd5viAST0aFkOhG8MFPTjd3pgv6gFsVc+D+mzk9NK5WTk5OT4xKasKIZ54Xwoya8LQx7lCsEPh7VjOb3JYw17WOPcgFN+PhvAb2yfmiCwyrraMLPTQSMJvye+V9CCCebCrADEoFf3q0ZvjotIVzaK4TLTktM+dAVDi63kAhfL3errKI9OGYRMMKwOO3DTpVVNONpm4QmvG+UWpdKoJu0Y4MmPCcEr2zBJgfB3OgtmtGDBTNRKbaWSOsoCeNZW/C3wVWzOP/AzJzfF+7H+ormcneHGettLiEM06kIaII3NoHa82fGvP9kvj15GO7veRAKXOvpaPm56okt27Mh8OKXwKNwH6wKjBxoLSCE/YkLCMMFm8A7GTFLT+fM7HBXuB/vL60coT7LHBBeSVwgONK5URguasYPNpHAQzM+UDKjhwpmYsA2xOEczGSqhe4cj9JC2Lh2v3S2hXS4YMnpFhLCuustVHe6hSQNgURbiFIQiNJEkVuIUhKwNVHcFpK0BGyDHLuFGGvZEIjZQppxIRUBWxPFvgsxTKUi0G4T/dFCFfsQayqdajvE9f1q/erfvQXrF8dcAbX/XiFcvjtY6GxbQBjPJBU83oLh//cIMP3ws7eGtm6KJsDweu2DY+PozFW5uC1S+FDAg5NrHLwuDJcCf3NBxaHxHEYYhpIc4n9CM35pHJfGNaTqlXfFCp6Tk5OToyLyE8N5cuGc38UsAAAAAElFTkSuQmCC");*/
+        /*    background-size: cover;*/
+        /*    margin-right: 15px;*/
+        /*}*/
+
+        div>ul#pink>li:nth-child(even) {
+            color: pink;
+        }
+        div>ul#odd>li:nth-child(odd) {
+            font-size: 22px;
+        }
+
+        div>ul#after>li:nth-child(2n+4)::after {
+            content: "!";
+            font-weight: bold;
+            font-size: 30px;
+            color: green;
+        }
+        div>ul#last>li:last-child {
+            color: darkviolet;
+        }
+        ul#first li::first-letter {
+            color: red;
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div id="flex">
+    <ul id="pink">
+        <li>Завдання 1.</li>
+        <li>Molestias, unde, veritatis!</li>
+        <li>Doloremque doloribus, porro.</li>
+        <li>Praesentium, quod temporibus!</li>
+        <li>Aspernatur, velit, voluptate.</li>
+        <li>Earum, enim ipsam!</li>
+    </ul>
+    <ul id="odd">
+        <li>Завдання 2.</li>
+        <li>Molestias, unde, veritatis!</li>
+        <li>Doloremque doloribus, porro.</li>
+        <li>Praesentium, quod temporibus!</li>
+        <li>Aspernatur, velit, voluptate.</li>
+        <li>Earum, enim ipsam!</li>
+    </ul>
+    <ul id="after">
+        <li>Завдання 3.</li>
+        <li>Molestias, unde, veritatis!</li>
+        <li>Doloremque doloribus, porro.</li>
+        <li>Praesentium, quod temporibus!</li>
+        <li>Aspernatur, velit, voluptate.</li>
+        <li>Earum, enim ipsam!</li>
+    </ul>
+    <ul id="last">
+        <li>Завдання 4.</li>
+        <li>Molestias, unde, veritatis!</li>
+        <li>Doloremque doloribus, porro.</li>
+        <li>Praesentium, quod temporibus!</li>
+        <li>Aspernatur, velit, voluptate.</li>
+        <li>Earum, enim ipsam!</li>
+    </ul>
+    <ul id="first">
+        <li>Завдання 5.</li>
+        <li>Molestias, unde, veritatis!</li>
+        <li>Doloremque doloribus, porro.</li>
+        <li>Praesentium, quod temporibus!</li>
+        <li>Aspernatur, velit, voluptate.</li>
+        <li>Earum, enim ipsam!</li>
+    </ul>
+</div>
+
+</body>
+</html>
