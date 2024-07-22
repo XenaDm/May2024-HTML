@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 40vh;
+
+}
+.dots>div {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    border-style: solid;
+    border-color: rgba(252, 70, 107, 0.27);
+    box-shadow: -3px 4px 25px 13px rgba(252,70,107,1);
+    -webkit-box-shadow: -3px 4px 25px 13px rgba(252,70,107,1);
+    -moz-box-shadow: -3px 4px 25px 13px rgba(252,70,107,1);
+
+}
+#dot-1{
+    animation: dot-1 3s linear infinite alternate;
+}
+#dot-2{
+    animation: dot-2 3s linear infinite alternate;
+}
+#dot-3{
+    animation: dot-3 3s linear infinite alternate;
+}
+#dot-4{
+    animation: dot-4 3s linear infinite alternate;
+}
+#dot-5{
+    animation: dot-5 3s linear infinite alternate;
+}
+
+@keyframes dot-1 {
+
+    0% {
+        transform: scale(2);
+    }
+    10% {
+        transform: scale(1);
+    }
+    20% {
+        transform: scale(0.5) translateX(-500px);
+    }
+    30%{
+        box-shadow: 5px 3px 100px 56px rgba(252,70,107,0.79);
+        -webkit-box-shadow: 5px 3px 100px 56px rgba(252,70,107,0.79);
+        -moz-box-shadow: 5px 3px 100px 56px rgba(252,70,107,0.79);
+    }
+    40%{
+    }
+
+}
+@keyframes dot-2 {
+0%{
+
+}
+    10% {
+        transform: scale(2);
+    }
+    20% {
+        transform: scale(1);
+    }
+    30% {
+        transform: scale(0.5) translateX(-300px);
+    }
+    40%{
+        box-shadow: 5px 3px 100px 56px rgba(252,70,107,0.79);
+        -webkit-box-shadow: 5px 3px 100px 56px rgba(252,70,107,0.79);
+        -moz-box-shadow: 5px 3px 100px 56px rgba(252,70,107,0.79);
+    }
+    50%{
+
+    }
+}
+
+@keyframes dot-3 {
+    0%{
+
+    }
+    20% {
+        transform: scale(2);
+    }
+    30% {
+        transform: scale(1);
+    }
+    40% {
+        transform: scale(0.5);
+    }
+    50%{
+        box-shadow: 5px 3px 100px 56px rgba(252,70,107,0.79);
+        -webkit-box-shadow: 5px 3px 100px 56px rgba(252,70,107,0.79);
+        -moz-box-shadow: 5px 3px 100px 56px rgba(252,70,107,0.79);
+    }
+    60%{
+    }
+}
+@keyframes dot-4 {
+    0% {
+
+    }
+    30% {
+        transform: scale(2);
+    }
+    40% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.5) translateX(300px);
+
+    }
+    60% {
+        box-shadow: 5px 3px 100px 56px rgba(252,70,107,0.79);
+        -webkit-box-shadow: 5px 3px 100px 56px rgba(252,70,107,0.79);
+        -moz-box-shadow: 5px 3px 100px 56px rgba(252,70,107,0.79);
+    }
+    70% {
+
+    }
+}
+
+@keyframes dot-5 {
+    40% {
+        transform: scale(2);
+
+    }
+    50% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(0.5) translateX(500px);
+
+    }
+    70%{
+        box-shadow: 5px 3px 100px 56px rgba(252,70,107,0.79);
+        -webkit-box-shadow: 5px 3px 100px 56px rgba(252,70,107,0.79);
+        -moz-box-shadow: 5px 3px 100px 56px rgba(252,70,107,0.79);
+    }
+    80%{
+
+    }
+}
+.loading {
+    height: 10vw;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-size: xx-large;
+    animation: loading 3s linear infinite alternate;
+}
