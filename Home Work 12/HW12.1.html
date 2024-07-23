@@ -1,0 +1,153 @@
+<!--Task 1.-->
+
+<!--Реалізуй таблицю згідно зразку ( зображення HW_13_1.png)-->
+<!--При наведенні на кожен рядок він повинен змінювати свій колір.-->
+
+<!--Текст для заповнення таблиці:-->
+
+<!--Заголовки:-->
+<!-- - Record-->
+<!-- - Holder-->
+<!-- - Country-->
+<!-- - Details-->
+
+<!--Дані:-->
+<!--1. Most Goals in a Calendar Year-->
+<!-- - Lionel Messi-->
+<!-- - Argentina-->
+<!-- - 91 goals (2012)-->
+
+<!--2. Most World Cup Wins-->
+<!-- - Brazil-->
+<!-- - Brazil-->
+<!-- - 5 titles (1958, 1962, 1970, 1994, 2002)-->
+
+<!--3. Most Goals in a World Cup-->
+<!-- - Marta-->
+<!-- - Brazil-->
+<!-- - 17 goals (2003-2019)-->
+
+<!--4. Most Appearances in World Cup-->
+<!-- - Lothar Matthäus-->
+<!-- - Germany-->
+<!-- - 25 matches (1982-1998)-->
+
+<!--5. Most Goals in a Single World Cup-->
+<!-- - Just Fontaine-->
+<!-- - France-->
+<!-- - 13 goals (1958)-->
+
+<!--6. Most Consecutive International Goals-->
+<!-- - Abby Wambach-->
+<!-- - USA-->
+<!-- - 184 goals (2001-2015)-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Work 12.2</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicons/favicon-16x16.png">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: rgba(77, 211, 0, 0.2);
+            height: 100%;
+        }
+        table{
+            margin: 200px auto;
+            width: 70%;
+            border-spacing: 0;
+            font-weight: bold;
+            font-family: "Inter", sans-serif
+        }
+        thead{
+            text-align: center;
+            font-weight: 400;
+            font-size: xx-large;
+        }
+        td{
+            padding: 15px;
+        }
+        tbody>tr:first-child{
+            background: rgb(77, 211, 0);
+            color: white;
+        }
+        tbody>tr:nth-child(even){
+            background: rgba(77, 211, 0, 0.29);
+        }
+        tbody>tr:nth-child(2n+3){
+            background: white;
+        }
+        tr{
+            transition: 0.5s;
+        }
+        tbody>tr:hover:nth-child(n+2){
+            background: #015301;
+            transition: 0.5s;
+        }
+
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <td colspan="4">Football Records of All Time</td>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>RECORD</td>
+            <td>HOLDER</td>
+            <td>COUNTRY</td>
+            <td>DETAILS</td>
+        </tr>
+
+        <tr>
+            <td>Most Goals is a Calendar Year</td>
+            <td>Lionel Messi</td>
+            <td>Argentina</td>
+            <td>91 goals (2012)</td>
+        </tr>
+        <tr>
+            <td>Most World Cup Wins</td>
+            <td>Brazil</td>
+            <td>Brazil</td>
+            <td>5 titles (1958, 1962, 1970, 1994, 2002)</td>
+        </tr>
+        <tr>
+            <td>Most Goals in a World Cup</td>
+            <td>Marta</td>
+            <td>Brazil</td>
+            <td>17 goals (2003-2019)</td>
+        </tr>
+        <tr>
+            <td>Most Appearances in a World Cup</td>
+            <td>Lothar Matthaus</td>
+            <td>Germany</td>
+            <td>25 matches (1982-1998)</td>
+        </tr>
+        <tr>
+            <td>Most Goals in a Single World Cup</td>
+            <td>Just Fontaine</td>
+            <td>France</td>
+            <td>13 goals (1958)</td>
+        </tr>
+        <tr>
+            <td>Most Consecutive Goals</td>
+            <td>Abby Wambach</td>
+            <td>USA</td>
+            <td>184 goals (2001-2015)</td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
