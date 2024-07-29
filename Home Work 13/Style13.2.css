@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+section h2{
+    color: #142823;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    width: 100vw;
+    margin: 10vh 0 3vh 0;
+}
+section div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8vw;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 285px;
+    height: 331px;
+    background: white;
+    box-shadow: 0 4px 20px 0 rgba(139, 139, 139, 0.10);
+    gap: 20px;
+    position: relative;
+}
+.sticker{
+    position: absolute;
+    top: -30px;
+    width: 165px;
+    height: 65px;
+}
+.Nike{
+    width: 245px;
+    height: 200px;
+}
+.card p:first-of-type{
+    color:  #282828;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+font-family: 'Inter', sans-serif;
+}
+.card p{
+    color: #106FDF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+#centralPrice{
+    color: #DD152D;
+}

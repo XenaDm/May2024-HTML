@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 20px 100px;
+}
+header div img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+}
+#left{
+    font-size: 20px;
+}
+#right{
+    font-size: 15px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+ul li{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+header button{
+    height: 40px;
+    width: 100px;
+    background: white;
+    border-radius: 5px;
+    color: black;
+    border-style: none;
+}
+/*------------------------------main--------------------------*/
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-size: 30px;
+    gap: 20px;
+}
+main p{
+    width: 40%;
+}
+main div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    background: white;
+    border-radius: 3px;
+}
+form{
+    background: white;
+    font-size: 15px;
+    height: 40px;
+}
+form p{
+    position: relative;
+    top: 10px;
+    left: -100px;
+    width: 100%;
+    background: none;
+    color: rgba(0, 0, 0, 0.42);
+}
+main button{
+    background: white;
+    color: black;
+    height: 85%;
+    margin-left: 2px;
+    border-radius: 3px;
+    width: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.13);
+    border: 1px solid rgba(0, 0, 0, 0.14);
+}
+main button img{
+    background: none;
+}
+main img{
+    background: white;
+    height: 50%;
+    margin-right: 15px;
+}
+video{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
